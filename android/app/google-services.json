@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "69098193353",
+    "firebase_url": "https://fir-apps-5f582.firebaseio.com",
+    "project_id": "fir-apps-5f582",
+    "storage_bucket": "fir-apps-5f582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69098193353:android:478f9816cba36d76",
+        "android_client_info": {
+          "package_name": "com.example.udemy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69098193353-ihh14mhfemsgj434penikaoen88ku7f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv8jo2JPE7r6Au_pD5JdwefAFC75PDX0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69098193353-ihh14mhfemsgj434penikaoen88ku7f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69098193353:android:4c47e03800e62cd9",
+        "android_client_info": {
+          "package_name": "com.example.zomato_copy1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69098193353-r4rouh8q70kvv98r6bft2udd9plhlfth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zomato_copy1",
+            "certificate_hash": "b27839547126db052e067f3ed37dfc4510656579"
+          }
+        },
+        {
+          "client_id": "69098193353-ihh14mhfemsgj434penikaoen88ku7f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv8jo2JPE7r6Au_pD5JdwefAFC75PDX0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69098193353-ihh14mhfemsgj434penikaoen88ku7f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
