@@ -20,14 +20,19 @@ class _SignUpState extends State<SignUp> {
       appBar: AppBar(
         
       ),
-      body: Form(
-        key: _formkey,
-        child: Column(
-          children: <Widget>[
+      body: Container(
+        padding: EdgeInsets.all(30.0),
+        child: ListView(
+children: <Widget>[
+  Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdawj90yCZuWS-Ez5QEmCIkGzkTcsa0faH-g30V38xvsiIiaqG", fit: BoxFit.cover,   alignment: Alignment.center),
+  Form(
+          key: _formkey,
+          child: Column(
+            children: <Widget>[
 TextFormField(
   validator: (input) {
     if(input.isEmpty){
-      return 'please type an email';
+        return 'please type an email';
     }
   } ,
   onSaved: (input)=> _email=input,
@@ -38,7 +43,7 @@ TextFormField(
 TextFormField(
   validator: (input) {
     if(input.length<6){
-      return 'your password shoould be of 6 characters';
+        return 'your password shoould be of 6 characters';
     }
   } ,
   onSaved: (input)=> _password=input,
@@ -51,9 +56,12 @@ RaisedButton(
   onPressed: signUp,
   child: Text("Sign Up"),
 ),
-          ],
+            ],
+          ),
+          ),
+],
         ),
-        ),
+      ),
     );
   }
   Future<void> signUp() async {

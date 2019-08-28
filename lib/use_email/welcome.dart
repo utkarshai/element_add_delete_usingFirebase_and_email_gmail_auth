@@ -16,7 +16,10 @@ class _WelcomeState extends State<Welcome> {
         title: Text("my firebase app"),
 
       ),
-      body: Column(
+      body: Stack(
+        children: <Widget>[
+          Image.network("https://media1.giphy.com/media/eJRuUt3VzkWKqzlyA0/200w.webp?cid=790b7611566702feb29576d1173f3f1f04db18016dd7cc82&rid=200w.webp", fit: BoxFit.cover, height: double.infinity, width: double.infinity,),
+Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
@@ -30,6 +33,12 @@ class _WelcomeState extends State<Welcome> {
           )
         ],
       ),
+
+
+        ],
+      )
+      
+      
     );
   }
   void navigateToSignIn(){
