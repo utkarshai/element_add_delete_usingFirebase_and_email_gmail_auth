@@ -101,28 +101,8 @@ List<ProviderDetails> providerData = new List<ProviderDetails>();
                 )
                 ),
 
-                Container(
-                  width: 250.0,
-                    child: Align(
-                  alignment: Alignment.center,
-                  child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: new BorderRadius.circular(30.0)),
-                    color: Color(0xffffffff),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                      Icon(FontAwesomeIcons.facebookF,color: Color(0xff4754de),),
-                      SizedBox(width:10.0),
-                      Text(
-                      'Sign in with Facebook',
-                      style: TextStyle(color: Colors.black,fontSize: 18.0),
-                    ),
-                    ],),
-                    onPressed: () {},
-                  ),
-                )
-                ),
+                
+             
                 Container(
                   width: 250.0,
                     child: Align(

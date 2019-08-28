@@ -20,8 +20,9 @@ dev_dependencies:
   font_awesome_flutter:
   cloud_firestore:
   flutter_typeahead: ^1.6.1  
-
+  google_maps_flutter: 
   flutter_launcher_icons: "^0.7.2"
+  flutter_map:
 
 flutter_icons:
   android: "launcher_icon"
